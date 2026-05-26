@@ -1,9 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task14::bon_appetit;
+use hackerrank::task15::page_count;
 
 fn main() {
-    let result = bon_appetit(vec![3, 10, 2, 9], 1, 12);
+    let result = page_count(6, 2);
 
     println!("{}", result);
 }
