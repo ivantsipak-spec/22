@@ -1,13 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task11::diagonal_difference;
+use hackerrank::task12::birthday_cake_candles;
 
 fn main() {
-    let result = diagonal_difference(vec![
-        vec![1, 2, 3],
-        vec![4, 5, 6],
-        vec![9, 8, 9],
-    ]);
+    let result = birthday_cake_candles(vec![3, 2, 1, 3]);
 
     println!("{}", result);
 }
