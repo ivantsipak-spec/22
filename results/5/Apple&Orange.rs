@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 pub fn count_apples_and_oranges(
     s: i32,
     t: i32,
