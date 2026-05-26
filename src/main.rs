@@ -1,9 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task13::divisible_sum_pairs;
+use hackerrank::task14::bon_appetit;
 
 fn main() {
-    let result = divisible_sum_pairs(3, vec![1, 3, 2, 6, 1, 2]);
+    let result = bon_appetit(vec![3, 10, 2, 9], 1, 12);
 
     println!("{}", result);
 }
