@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/staircase/problem
+#[allow(dead_code)]
 pub fn staircase(n: i32) -> Vec<String> {
     let mut result = Vec::new();
 
