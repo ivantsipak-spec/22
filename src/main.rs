@@ -1,12 +1,11 @@
 mod hackerrank;
 
-use hackerrank::task07::get_total_x;
+use hackerrank::task08::breaking_records;
 
 fn main() {
-    let result = get_total_x(
-        vec![2, 4],
-        vec![16, 32, 96],
+    let result = breaking_records(
+        vec![10, 5, 20, 20, 4, 5, 2, 25, 1],
     );
 
-    println!("{}", result);
+    println!("{} {}", result[0], result[1]);
 }
