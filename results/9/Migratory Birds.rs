@@ -1,4 +1,3 @@
-// https://www.hackerrank.com/challenges/migratory-birds/problem
 #[allow(dead_code)]
 pub fn migratory_birds(arr: Vec<i32>) -> i32 {
     let mut counts = [0; 6];
@@ -30,4 +29,4 @@ mod tests {
 
         assert_eq!(result, 4);
     }
-}
+}ss
