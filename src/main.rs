@@ -1,11 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task08::breaking_records;
+use hackerrank::task10::sock_merchant;
 
 fn main() {
-    let result = breaking_records(
-        vec![10, 5, 20, 20, 4, 5, 2, 25, 1],
-    );
+    let result = sock_merchant(vec![10, 20, 20, 10, 10, 30, 50, 10, 20]);
 
-    println!("{} {}", result[0], result[1]);
+    println!("{}", result);
 }
