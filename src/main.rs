@@ -1,9 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task12::birthday_cake_candles;
+use hackerrank::task13::divisible_sum_pairs;
 
 fn main() {
-    let result = birthday_cake_candles(vec![3, 2, 1, 3]);
+    let result = divisible_sum_pairs(3, vec![1, 3, 2, 6, 1, 2]);
 
     println!("{}", result);
 }
